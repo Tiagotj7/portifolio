@@ -1,34 +1,47 @@
+body{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: red;
+}
+
 .App {
   text-align: center;
 }
 
-nav{
-  display: flex;
-  align-items: center;
-  justify-content: right;
+.devlogo-app{
+  height: 3vw;
+  pointer-events: none;
 }
 
 .gitlogo-app {
-  height: 5vmin;
+  height: 3vw;
   pointer-events: none;
 }
 
 .linklogo-app{
-  height: 5vmin;
+  height: 3vw;
   pointer-events: none;
 }
 
 .instalogo-app{
-  height: 5vmin;
+  height: 3vw;
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #000000;
-  min-height: 20vh;
+/*-----------------------------*/
+
+.perfil-container{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 2vw;
+  
 }
+

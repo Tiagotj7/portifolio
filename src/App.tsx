@@ -2,14 +2,28 @@ import React from 'react';
 import gitlogo from './git dev.png';
 import linklogo from './link dev.png'
 import instalogo from './insta logo dev.png'
+import devlogo from './dev logo.png'
+import perfillogo from './perfil 2.jpg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <body>
+        
+      
       <header className="App-header">
-    <nav>
+
+<nav className='name-nav'>
+  <ul>
+    <img src={devlogo} className='devlogo-app' alt="dev" />
+      <h2>Tiagotj7</h2>
+  </ul>
+</nav>
+
+    <nav className='icons-nav'>
       <ul>
+        <h2>Social</h2>
         <a href="https://github.com/Tiagotj7/">
           <img src={gitlogo} className='gitlogo-app' alt="GitHub" />
         </a>
@@ -23,7 +37,13 @@ function App() {
     </nav>
       </header>
 
+      <div className='perfil-container'>
+        <img src={perfillogo} alt="perfil" />
+      </div>
+
 <footer></footer>
+
+</body>
 
     </div>
   );
