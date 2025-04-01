@@ -1,11 +1,5 @@
-body{
-  background-color: white;
-  margin: 0;
-  padding: 0;
-
-}
-
 .App-header {
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,9 +33,4 @@ body{
 
 /*-----------------------------*/
 
-.perfil-container{
-  display: flex;
-  height: 2vw;
-  
-}
 

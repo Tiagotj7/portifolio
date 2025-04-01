@@ -3,15 +3,12 @@ import gitlogo from './git dev.png';
 import linklogo from './link dev.png'
 import instalogo from './insta logo dev.png'
 import devlogo from './dev logo.png'
-import perfillogo from './perfil 2.jpg'
+//import perfillogo from './perfil 2.jpg'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <body>
-        
-      
+    <div className="App">  
       <header className="App-header">
 
 <nav className='name-nav'>
@@ -37,13 +34,7 @@ function App() {
     </nav>
       </header>
 
-      <div className='perfil-container'>
-        <img src={perfillogo} alt="perfil" />
-      </div>
-
-<footer></footer>
-
-</body>
+<footer>ola</footer>
 
     </div>
   );
