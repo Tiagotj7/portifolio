@@ -95,13 +95,13 @@ function App() {
                 <li>Cursando - Técnico em Desenvolvimento de Sistemas - SENAI</li>
                 <li>Internet do Comportamento (IoB) em Serviços</li>
                 <li>Públicos Digitais</li>
-                <li>Crie site utilizando Html, Css e Js</li>
+                <li>Site utilizando Html, Css e Js</li>
                 <li>Curso Segurança em Tecnologia da Informação</li>
                 <li>Introdução ao Hacking e Pentest 2.0</li>
                 <li>Introdução ao Excel</li>
-                <li>Instalação e Configuração do Visual Studio Code</li>
-                <li>Introdução ao Desenvolvimento Moderno de Software</li>
-                <li>Introdução à informática básica</li>
+                <li>Visual Studio Code</li>
+                <li>Desenvolvimento Moderno de Software</li>
+                <li>Informática básica</li>
                 <li>DIO.me</li>
                 <li>Bootcamp</li>
               </ul>
