@@ -120,6 +120,25 @@ function App() {
 
       <main className='main4-content'></main>
 
+      <main className='main5-content'>
+
+        <div className='contact-container'>
+
+          <h1>Contato</h1>
+
+          <div className='sub-contact1'>
+            <h3>Email</h3>
+            <p>tiagotj7dev@gmail.com</p>
+          </div>
+
+          <div className='subcontact2'>
+            <h3>Phone</h3>
+            <p>(75)9 9889-3216</p>
+          </div>
+
+        </div>
+      </main>
+
       <footer>
         <p>&copy; 2025 Flip Sound. Todos os direitos reservados.</p>
         <p>Desenvolvido por Tiagotj7.dev.</p>
