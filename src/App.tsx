@@ -7,6 +7,7 @@ import perfillogo from './perfil11.png';
 import notelogo from './dev img.png';
 import cerlogo from './cer3.png';
 import nextlogo from './next logo.png';
+import contactlogo from './contato dev.png';
 import './Global.css';
 
 function App() {
@@ -124,14 +125,20 @@ function App() {
 
         <div className='contact-container'>
 
-          <h1>Contato</h1>
 
           <div className='sub-contact1'>
             <h3>Email</h3>
             <p>tiagotj7dev@gmail.com</p>
           </div>
 
-          <div className='subcontact2'>
+          <div className='contactlogo-container'>
+
+            <h1 className='contact-text'>Contato</h1>
+
+            <img src={contactlogo} className='contactlogo' alt="contactlogo" />
+          </div>
+
+          <div className='sub-contact2'>
             <h3>Phone</h3>
             <p>(75)9 9889-3216</p>
           </div>

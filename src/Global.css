@@ -273,25 +273,68 @@ main {
 /*---------------------------------Main-5----------------------------------------*/
 
 .main5-content{
+  color: #ff4739;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactlogo-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: -100px;
+}
+
+.contactlogo{
+  margin-top: 0; /* Remove qualquer margem extra acima da imagem */
+}
+
+.contact-text{
+display: flex;
+text-align: center;
+color: white;
+font-size: 80px;
+margin-bottom: 5px; /* Reduz o espaçamento abaixo do h1 */
+}
+
+.sub-contact1,.sub-contact2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.sub-contact1 p,
+.sub-contact2 p{
   color: white;
+  margin-top: 0;
+}
+
+.sub-contact1 h3,
+.sub-contact2 h3{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
 }
 
 .contact-container{
   display: flex;
 }
 
-.subcontact1{
-  display: flex;
-  flex-direction: column;
-}
-
-.subcontact2{
-  display: flex;
-  flex-direction: column;
+.contactlogo{
+  height: 20vw;
 }
 
 /*---------------------------------Footer----------------------------------------*/
 
 footer {
   color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 0;
 }
