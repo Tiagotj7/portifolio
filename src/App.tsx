@@ -5,6 +5,7 @@ import instalogo from './insta logo dev.png';
 import devlogo from './dev logo.png';
 import perfillogo from './perfil11.png';
 import notelogo from './dev img.png';
+import cerlogo from './cer3.png';
 import nextlogo from './next logo.png';
 import './Global.css';
 
@@ -83,13 +84,45 @@ function App() {
 
       </div>
 
-<main className='main3-content'></main>
+      <main className='main3-content'>
+
+        <div className='main3-content'>
+          <div className='certificates-container'>
+            <div className='cert-list-container'>
+              <h1 className='cert-title'>CERTIFICADOS</h1>
+              <ul className='cert-list'>
+                <li>Cursando - Técnico em Desenvolvimento de Sistemas - SENAI</li>
+                <li>Internet do Comportamento (IoB) em Serviços</li>
+                <li>Públicos Digitais</li>
+                <li>Crie site utilizando Html, Css e Js</li>
+                <li>Curso Segurança em Tecnologia da Informação</li>
+                <li>Introdução ao Hacking e Pentest 2.0</li>
+                <li>Introdução ao Excel</li>
+                <li>Instalação e Configuração do Visual Studio Code</li>
+                <li>Introdução ao Desenvolvimento Moderno de Software</li>
+                <li>Introdução à informática básica</li>
+                <li>DIO.me</li>
+                <li>Bootcamp</li>
+              </ul>
+              <a href="">
+                <button className='curriculo-button'>
+                  CURRÍCULO
+                </button>
+              </a>
+            </div>
+
+            <div className='brain-image-container'>
+              <img src={cerlogo} className='brain-image' alt="Brain" />
+            </div>
+          </div>
+        </div>
+      </main>
 
       <main className='main4-content'></main>
 
       <footer>
-      <p>&copy; 2025 Flip Sound. Todos os direitos reservados.</p>
-      <p>Desenvolvido por Tiagotj7.dev.</p>
+        <p>&copy; 2025 Flip Sound. Todos os direitos reservados.</p>
+        <p>Desenvolvido por Tiagotj7.dev.</p>
       </footer>
 
     </div>

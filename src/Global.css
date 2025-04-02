@@ -46,7 +46,7 @@ code {
   cursor: pointer;
 }
 
-.icons-nav img:hover{
+.icons-nav img:hover {
   transform: scale(1.1);
 }
 
@@ -94,13 +94,13 @@ main {
   display: flex;
   flex-direction: column;
   text-align: start;
+  font-size: 40px;
 }
 
 .information h1 {
   margin: 5px 0; /* Reduz o espaçamento entre os títulos */
   line-height: 1; /* Diminui a altura da linha */
   text-align: start;
-  font-size: 40px;
 }
 
 /*---------------------------Button-Main--------------------------------------------*/
@@ -110,12 +110,12 @@ main {
   background-color: #ff4739;
   margin-top: 100px;
   font-family: "Orbitron", sans-serif;
-  padding: 1px 30px;
+  width: 30%;
 }
 
 /*---------------------------------Main-2----------------------------------------*/
 
-.main2-content{
+.main2-content {
   background-color: #141414;
   margin: 0;
   padding: 0;
@@ -124,7 +124,7 @@ main {
   justify-content: center;
 }
 
-.geral2{
+.geral2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,35 +133,35 @@ main {
   max-width: 1200px;
 }
 
-.nextlogo-container{
+.nextlogo-container {
   height: 30vw;
   max-height: 150px;
   z-index: 1; /* Garante que a imagem fique acima */
 }
 
-.note-container{
+.note-container {
   display: flex;
   justify-content: flex-end;
   flex: 1;
 }
 
-.notelogo-container{
+.notelogo-container {
   height: 40vw;
   max-height: 400px;
 }
 
-.comment{
+.comment {
   color: white;
   padding: 100px;
 }
 
-.comment h1{
+.comment h1 {
   color: #ff4739;
   font-size: 25px;
   margin-top: 160px;
 }
 
-.comment p{
+.comment p {
   font-size: 18px;
   text-align: center;
   text-align: justify;
@@ -170,12 +170,95 @@ main {
 
 /*---------------------------------Main-3----------------------------------------*/
 
+.main3-content {
+  background-color: black;
+  margin: 0;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.certificates-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  gap: 80px;
+}
+
+.cert-list-container {
+  flex: 1;
+  background-color: #141414;
+  padding: 30px;
+  border-radius: 5px;
+  max-width: 450px;
+}
+
+.cert-title {
+  color: #ff4739;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: left;
+  text-align: center;
+}
+
+.cert-list {
+  list-style-type: disc;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.cert-list li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.curriculo-button {
+  background-color: #ff4739;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: "Orbitron", sans-serif;
+}
+
+.brain-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brain-image {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .certificates-container {
+    flex-direction: column;
+  }
+
+  .cert-list-container {
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+}
 
 /*---------------------------------Main-4----------------------------------------*/
 
-.main4-content{
-  background-image: url('./wrd.png');
+.main4-content {
+  background-image: url("./wrd.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -189,6 +272,6 @@ main {
 
 /*---------------------------------Footer----------------------------------------*/
 
-footer{
+footer {
   color: white;
 }
