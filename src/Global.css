@@ -113,6 +113,17 @@ main {
   width: 30%;
 }
 
+.button-more:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px #00a6ff;
+  font-style: italic;
+}
+
+.button-more:active{
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px #a9c0cc;
+}
+
 /*---------------------------------Main-2----------------------------------------*/
 
 .main2-content {
@@ -221,14 +232,24 @@ main {
 
 .curriculo-button {
   background-color: #ff4739;
-  color: white;
-  border: none;
+  color: black;
   border-radius: 5px;
   padding: 10px 30px;
   font-weight: bold;
   margin-top: 20px;
   cursor: pointer;
   font-family: "Orbitron", sans-serif;
+}
+
+.curriculo-button:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px #00a6ff;
+  font-style: italic;
+}
+
+.curriculo-button:active{
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px #a9c0cc;
 }
 
 .brain-image-container {

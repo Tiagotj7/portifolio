@@ -147,7 +147,7 @@ function App() {
       </main>
 
       <footer>
-        <p>&copy; 2025 Flip Sound. Todos os direitos reservados.</p>
+        <p>&copy; 2025.Todos os direitos reservados.</p>
         <p>Desenvolvido por Tiagotj7.dev.</p>
       </footer>
 
