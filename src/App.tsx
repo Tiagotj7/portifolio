@@ -6,7 +6,6 @@ import devlogo from './dev logo.png';
 import perfillogo from './perfil11.png';
 import notelogo from './dev img.png';
 import nextlogo from './next logo.png';
-import backgrounddev from './wrd.png';
 import './Global.css';
 
 function App() {
