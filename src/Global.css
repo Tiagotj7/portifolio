@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  font-family: "Orbitron", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*--------------------------------------------------------------------------*/
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #ff4739;
+  padding: 5px 3%;
+  height: 100px;
+}
+
+/*-------------------------------Img-Header-------------------------------------*/
+
+.name-nav ul {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/*-------------------------------Img-Header-------------------------------------*/
+
+.icons-nav img {
+  height: 3vw;
+}
+
+.name-nav img {
+  height: 3vw;
+}
+
+/*---------------------------------Main-----------------------------------------*/
+
+main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: -7rem;
+}
+
+.geral1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/*------------------------------Logo-Main-----------------------------------------*/
+
+.logodev-container {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.perfillogo-container {
+  height: 50vw;
+  max-height: 500px;
+}
+
+/*---------------------------Information-Main--------------------------------------*/
+
+.information {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.information h1 {
+  margin: 5px 0; /* Reduz o espaçamento entre os títulos */
+  line-height: 1; /* Diminui a altura da linha */
+  text-align: start;
+}
+
+/*---------------------------Button-Main--------------------------------------------*/
+
+.button-more {
+  border-radius: 5px;
+  background-color: #ff4739;
+  margin-top: 100px;
+  font-family: "Orbitron", sans-serif;
+}
+
+/*---------------------------------Main-2----------------------------------------*/
+
+.main2-content{
+  background-color: #141414;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.geral2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.nextlogo-container{
+  height: 30vw;
+  max-height: 150px;
+  z-index: 1; /* Garante que a imagem fique acima */
+}
+
+.note-container{
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.notelogo-container{
+  height: 40vw;
+  max-height: 400px;
+}
+
+.comment{
+  color: white;
+  padding: 100px;
+}
+
+.comment h1{
+  color: #ff4739;
+  font-size: 25px;
+  margin-top: 160px;
+}
+
+.comment p{
+  font-size: 18px;
+  text-align: center;
+  text-align: justify;
+  max-width: 800px;
+}
+
+/*---------------------------------Main-3----------------------------------------*/
+
+
+
+/*---------------------------------Main-4----------------------------------------*/
+
+.main4-content{
+  background-image: url('./wrd.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/*---------------------------------Footer----------------------------------------*/
+
+footer{
+  color: white;
+}
