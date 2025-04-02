@@ -46,7 +46,7 @@ function App() {
             <h1>Prazer,</h1>
             <h1>Tiago</h1>
             <h1>Carvalho!</h1>
-            <a href="">
+            <a href="https://www.linkedin.com/in/tiagocarvalhog2020/">
               <button className='button-more'>
                 <h3>Saiba Mais!</h3>
               </button>
@@ -105,7 +105,7 @@ function App() {
                 <li>DIO.me</li>
                 <li>Bootcamp</li>
               </ul>
-              <a href="">
+              <a href="https://drive.google.com/file/d/13tjN7JVKBRxSTfySOSU3wBl5sT_az3gU/view?usp=drive_link">
                 <button className='curriculo-button'>
                   CURRÍCULO
                 </button>
