@@ -43,6 +43,11 @@ code {
 
 .icons-nav img {
   height: 3vw;
+  cursor: pointer;
+}
+
+.icons-nav img:hover{
+  transform: scale(1.1);
 }
 
 .name-nav img {
@@ -58,7 +63,7 @@ main {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  margin-top: -7rem;
+  margin-top: -5rem;
 }
 
 .geral1 {
@@ -86,7 +91,6 @@ main {
 
 .information {
   color: white;
-  font-size: 40px;
   display: flex;
   flex-direction: column;
   text-align: start;
@@ -96,6 +100,7 @@ main {
   margin: 5px 0; /* Reduz o espaçamento entre os títulos */
   line-height: 1; /* Diminui a altura da linha */
   text-align: start;
+  font-size: 40px;
 }
 
 /*---------------------------Button-Main--------------------------------------------*/
@@ -105,6 +110,7 @@ main {
   background-color: #ff4739;
   margin-top: 100px;
   font-family: "Orbitron", sans-serif;
+  padding: 1px 30px;
 }
 
 /*---------------------------------Main-2----------------------------------------*/
