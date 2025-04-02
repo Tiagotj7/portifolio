@@ -30,7 +30,7 @@ function App() {
             <a href="https://www.linkedin.com/in/tiagocarvalhog2020/">
               <img src={linklogo} className='linklogo-app' alt="Linkedin" />
             </a>
-            <a href="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/tiagotj7.dev/">
+            <a href="https://www.instagram.com/tiagotj7.dev/">
               <img src={instalogo} className='instalogo-app' alt="Instagram" />
             </a>
           </ul>
