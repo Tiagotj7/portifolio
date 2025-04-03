@@ -8,7 +8,9 @@ import notelogo from './assets/dev img.png';
 import cerlogo from './assets/cer3.png';
 import nextlogo from './assets/next logo.png';
 import contactlogo from './assets/contato dev.png';
+import clipDev from './assets/videos/clip-dev.mp4';
 import './Global.css';
+
 
 function App() {
   return (
@@ -121,13 +123,20 @@ function App() {
 
       <main className='main4-content'>
   <div className="video-background">
-    <video autoPlay loop muted playsInline>
-      <source src={`${process.env.PUBLIC_URL}/videos/clip-dev.mp4`} type="video/mp4" />
-      Seu navegador não suporta vídeos HTML5.
+    <video 
+      autoPlay 
+      loop 
+      muted 
+      playsInline
+      className="background-video"
+      // Adicione um poster como fallback inicial
+      poster="/videos/poster.jpg" // (opcional) crie uma imagem thumbnail
+    >
+      <source src={clipDev} type="video/mp4" />
+      <p className="video-fallback">
+        Seu navegador não suporta vídeos HTML5.
+      </p>
     </video>
-  </div>
-  <div className="content-over-video">
-    {/* Seu conteúdo aqui */}
   </div>
 </main>
 
