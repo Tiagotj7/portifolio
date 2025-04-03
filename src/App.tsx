@@ -1,13 +1,13 @@
 import React from 'react';
-import gitlogo from './git dev.png';
-import linklogo from './link dev.png';
-import instalogo from './insta logo dev.png';
-import devlogo from './dev logo.png';
-import perfillogo from './perfil11.png';
-import notelogo from './dev img.png';
-import cerlogo from './cer3.png';
-import nextlogo from './next logo.png';
-import contactlogo from './contato dev.png';
+import gitlogo from './assets/git dev.png';
+import linklogo from './assets/link dev.png';
+import instalogo from './assets/insta logo dev.png';
+import devlogo from './assets/dev logo.png';
+import perfillogo from './assets/perfil11.png';
+import notelogo from './assets/dev img.png';
+import cerlogo from './assets/cer3.png';
+import nextlogo from './assets/next logo.png';
+import contactlogo from './assets/contato dev.png';
 import './Global.css';
 
 function App() {
@@ -119,7 +119,17 @@ function App() {
         </div>
       </main>
 
-      <main className='main4-content'></main>
+      <main className='main4-content'>
+  <div className="video-background">
+    <video autoPlay loop muted playsInline>
+      <source src={`${process.env.PUBLIC_URL}/videos/clip-dev.mp4`} type="video/mp4" />
+      Seu navegador não suporta vídeos HTML5.
+    </video>
+  </div>
+  <div className="content-over-video">
+    {/* Seu conteúdo aqui */}
+  </div>
+</main>
 
       <main className='main5-content'>
 

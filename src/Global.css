@@ -277,19 +277,35 @@ main {
 }
 
 /*---------------------------------Main-4----------------------------------------*/
-
 .main4-content {
-  background-image: url("./wrd.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   position: relative;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
 }
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content-over-video { /*conteúdo sobre o video*/
+  position: relative;
+  z-index: 2;
+  color: white;
+  /* outros estilos */
+}
+
 
 /*---------------------------------Main-5----------------------------------------*/
 
